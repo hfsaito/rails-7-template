@@ -31,4 +31,4 @@ services:
       default:
         aliases:
           - app
-    command: rails server
+    command: rails server -b 0.0.0.0
